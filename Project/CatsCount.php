@@ -38,7 +38,7 @@ $cat = array();
 
 
 for ($i = 0; $i < 10; $i++) {
-    $cat[$i] = new Cat("Mursik$i", $i + 1, 'Grey');
+    $cat[$i] = new Cat("Mursik$i", $i + 10, 'Grey');
 
 
 }
