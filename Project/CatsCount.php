@@ -35,8 +35,15 @@ Class Cat
 
 $cat = array();
 // cats creation
+
 for ($i = 0; $i < 7; $i++) {
     $cat[$i] = new Cat("Mursik$i", $i + 100, 'Grey');
+=======
+
+for ($i = 0; $i < 10; $i++) {
+    $cat[$i] = new Cat("Mursik$i", $i + 1, 'Grey');
+
+>>>>>>> Stashed changes
 }
 
 var_dump($cat);
