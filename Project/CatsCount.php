@@ -39,13 +39,13 @@ $cat = array();
 
 
 
-    $cat[$i] = new Cat("Mursik$i", $i + 10, 'Grey');
+
 
 
 for ($i = 0; $i < 11; $i++) {
 
- 
 
+    $cat[$i] = new Cat("Mursik$i", $i + 10, 'Grey');
 
 }
 
