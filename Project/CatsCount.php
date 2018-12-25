@@ -35,7 +35,7 @@ Class Cat
 
 $cat = array();
 // cats creation
-for ($i = 0; $i < 10; $i++) {
+for ($i = 0; $i < 11; $i++) {
     $cat[$i] = new Cat("Mursik$i", $i + 1, 'Grey');
 }
 
